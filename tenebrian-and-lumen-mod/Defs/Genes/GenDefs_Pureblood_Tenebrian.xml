@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <GeneDef>
+        <defName>XenogermPureBloodTenebrian</defName>
+        <label>pure blood</label>
+        <labelShortAdj>pure blood</labelShortAdj>
+        <description>Carriers of this gene are Pure Blood tenebrians. They are ageless, deathless, and have a huge boost in stats. They also come
+         with the innate ability to implant their genes and are immune to disease. They wish to spread this gift all over the rim!</description>
+        <iconPath>Genes/Icons/tenebrian_gene</iconPath>
+        <prerequisite>Hemogenic</prerequisite>
+        <biostatCpx>5</biostatCpx>
+        <biostatMet>7</biostatMet>
+
+        <displayCategory>Tenebre</displayCategory>
+        
+        <symbolPack>
+            <wholeNameSymbols>
+                <li><symbol>tenebrian</symbol></li>
+            </wholeNameSymbols>
+            <prefixSymbols>
+                <li><symbol>god</symbol></li>
+                <li><symbol>deo</symbol></li>
+                <li><symbol>deu</symbol></li>
+            </prefixSymbols>
+            <suffixSymbols>
+                <li><symbol>god</symbol></li>
+                <li><symbol>deus</symbol></li>
+            </suffixSymbols>
+        </symbolPack>
+        <modExtensions>
+            <li Class="VanillaGenesExpanded.GeneExtension">
+                <hediffToWholeBody>Tenebrian</hediffToWholeBody>
+            </li>
+        </modExtensions>
+        <minAgeActive>18</minAgeActive>
+    </GeneDef>
+</Defs>

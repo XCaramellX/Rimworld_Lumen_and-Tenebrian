@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <GeneDef>
+        <defName>XenogermTenebrian</defName>
+        <label>tenebrian</label>
+        <labelShortAdj>tenebrian</labelShortAdj>
+        <description>Carriers of this gene are tenebrians. They are ageless, deathless, and have a huge boost in stats. They also come
+         with the innate ability to implant their genes and are immune to disease. They wish to spread this gift all over the rim!</description>
+        <iconPath>Genes/Icons/tenebrian_gene</iconPath>
+        <prerequisite>Hemogenic</prerequisite>
+        <biostatCpx>5</biostatCpx>
+        <biostatMet>7</biostatMet>
+
+        <displayCategory>Tenebre</displayCategory>
+        <biologicalAgeTickFactorFromAgeCurve>
+            <points>
+                <li>(13, 1)</li>
+                <li>(18, 0)</li>
+            </points>
+        </biologicalAgeTickFactorFromAgeCurve>
+        <ignoreDarkness>true</ignoreDarkness>
+        <foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
+        <painFactor>0.5</painFactor>
+        <lovinMTBFactor>0.5</lovinMTBFactor>
+
+        <capMods>
+            <li>
+                <capacity>Breathing</capacity>
+                <postFactor>4</postFactor>
+            </li>
+            <li>
+                <capacity>Sight</capacity>
+                <postFactor>4</postFactor>
+            </li>
+            <li>
+                <capacity>Hearing</capacity>
+                <postFactor>4</postFactor>
+            </li>
+            <li>
+                <capacity>BloodFiltration</capacity>
+                <postFactor>4</postFactor>
+            </li>
+            <li>
+                <capacity>Eating</capacity>
+                <postFactor>2</postFactor>
+            </li>
+            <li>
+                <capacity>Talking</capacity>
+                <postFactor>2</postFactor>
+            </li>
+            <li>
+                <capacity>Manipulation</capacity>
+                <postFactor>2</postFactor>
+            </li>
+            <li>
+                <capacity>BloodPumping</capacity>
+                <postFactor>4</postFactor>
+            </li>
+            <li>
+                <capacity>Consciousness</capacity>
+                <postFactor>2</postFactor>
+            </li>
+        </capMods>
+
+        <statFactors>
+            <PsychicSensitivity>4</PsychicSensitivity>
+            <MeditationFocusGain>4</MeditationFocusGain>
+            <PsychicEntropyRecoveryRate>5</PsychicEntropyRecoveryRate>
+        </statFactors>
+
+        <makeImmuneTo>
+            <li>Flu</li>
+            <li>Malaria</li>
+            <li>SleepingSickness</li>
+            <li>Plague</li>
+            <li>WoundInfection</li>
+            <li>LungRot</li>
+        </makeImmuneTo>
+
+        <hediffGiversCannotGive>
+            <li>Carcinoma</li>
+            <li>HeartAttack</li>
+            <li>BadBack</li>
+            <li>Frail</li>
+            <li>Cataract</li>
+            <li>Dementia</li>
+            <li>Alzheimers</li>
+            <li>Asthma</li>
+            <li>HeartArteryBlockage</li>
+        </hediffGiversCannotGive>
+
+        <abilities>
+            <li>ReimplantXenogerm</li>
+            <li>Resurrect</li>
+            <li>Longjump</li>
+            <li>Coagulate</li>
+        </abilities>
+
+        <forcedTraits>
+            <li>
+              <def>Darkness</def>
+            </li>
+          </forcedTraits>
+
+        <symbolPack>
+            <wholeNameSymbols>
+                <li><symbol>tenebrian</symbol></li>
+            </wholeNameSymbols>
+            <prefixSymbols>
+                <li><symbol>god</symbol></li>
+                <li><symbol>deo</symbol></li>
+                <li><symbol>deu</symbol></li>
+            </prefixSymbols>
+            <suffixSymbols>
+                <li><symbol>god</symbol></li>
+                <li><symbol>deus</symbol></li>
+            </suffixSymbols>
+        </symbolPack>
+        <modExtensions>
+            <li Class="VanillaGenesExpanded.GeneExtension">
+                <hediffToWholeBody>IH_Immortal</hediffToWholeBody>
+            </li>
+        </modExtensions>
+        <minAgeActive>18</minAgeActive>
+    </GeneDef>
+</Defs>

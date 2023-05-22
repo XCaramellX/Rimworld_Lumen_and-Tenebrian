@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+    <TraitDef>
+        <defName>Darkness</defName>
+        <commonality>0</commonality>
+        <degreeDatas>
+            <li>
+                <label>darkness</label>
+                <description>{PAWN_nameDef} has dark energy within them</description>
+                <statOffsets>
+                    <GlobalLearningFactor>2</GlobalLearningFactor>
+                    <MeleeHitChance>1</MeleeHitChance>
+                    <MeleeDodgeChance>70</MeleeDodgeChance>
+                    <PainShockThreshold>5</PainShockThreshold>
+                    <MoveSpeed>10</MoveSpeed>
+                    <MentalBreakThreshold>-1</MentalBreakThreshold>
+                    <WorkSpeedGlobal>5</WorkSpeedGlobal>
+                    <ImmunityGainSpeed>1</ImmunityGainSpeed>
+                    <SocialImpact>0.5</SocialImpact>
+                    <CarryingCapacity>2</CarryingCapacity>
+                    <ResearchSpeed>2</ResearchSpeed>
+                    <RestRateMultiplier>0.5</RestRateMultiplier>
+                    <PawnBeauty>50</PawnBeauty>
+                    <ComfyTemperatureMin>-100</ComfyTemperatureMin>
+                    <ComfyTemperatureMax>100</ComfyTemperatureMax>
+                    <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+                    <ToxicResistance>1</ToxicResistance>
+                </statOffsets>
+
+                <statFactors>
+                    <Fertility>4</Fertility>
+                    <Flammability>0.01</Flammability>
+                    <IncomingDamageFactor>0.01</IncomingDamageFactor>
+                    <InjuryHealingFactor>10</InjuryHealingFactor>
+                    <LifespanFactor>5</LifespanFactor>
+                    <MeleeDamageFactor>1</MeleeDamageFactor>
+                    <RestFallRateFactor>0.85</RestFallRateFactor>
+                </statFactors>
+
+            <skillGains>
+                <li><key>Cooking</key><value>10</value></li>
+                <li><key>Crafting</key><value>10</value></li>
+                <li><key>Plants</key><value>10</value></li>
+                <li><key>Animals</key><value>10</value></li>
+                <li><key>Intellectual</key><value>10</value></li>
+                <li><key>Medicine</key><value>10</value></li>
+                <li><key>Melee</key><value>10</value></li>
+                <li><key>Mining</key><value>10</value></li>
+                <li><key>Social</key><value>10</value></li>
+                <li><key>Construction</key><value>10</value></li>
+                <li><key>Shooting</key><value>10</value></li>
+                <li><key>Artistic</key><value>10</value></li>
+            </skillGains>
+            
+            </li>
+        </degreeDatas>
+    </TraitDef>
+</Defs>
